@@ -2,6 +2,7 @@
   "name": "mapping",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/eodev99/prototype_react_map.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
@@ -15,6 +16,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -26,7 +29,7 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
+  "browserslist": { 
     "production": [
       ">0.2%",
       "not dead",
@@ -37,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
