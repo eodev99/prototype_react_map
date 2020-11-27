@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/eodev99/prototype_react_map.git/static/css/main.8e8cbc5f.chunk.css",
-    "main.js": "/eodev99/prototype_react_map.git/static/js/main.dc3a4420.chunk.js",
-    "main.js.map": "/eodev99/prototype_react_map.git/static/js/main.dc3a4420.chunk.js.map",
-    "runtime-main.js": "/eodev99/prototype_react_map.git/static/js/runtime-main.581a76e2.js",
-    "runtime-main.js.map": "/eodev99/prototype_react_map.git/static/js/runtime-main.581a76e2.js.map",
+    "main.js": "/eodev99/prototype_react_map.git/static/js/main.f81e9f31.chunk.js",
+    "main.js.map": "/eodev99/prototype_react_map.git/static/js/main.f81e9f31.chunk.js.map",
+    "runtime-main.js": "/eodev99/prototype_react_map.git/static/js/runtime-main.958890a7.js",
+    "runtime-main.js.map": "/eodev99/prototype_react_map.git/static/js/runtime-main.958890a7.js.map",
     "static/css/2.b4ebbe46.chunk.css": "/eodev99/prototype_react_map.git/static/css/2.b4ebbe46.chunk.css",
-    "static/js/2.931ff1ce.chunk.js": "/eodev99/prototype_react_map.git/static/js/2.931ff1ce.chunk.js",
-    "static/js/2.931ff1ce.chunk.js.map": "/eodev99/prototype_react_map.git/static/js/2.931ff1ce.chunk.js.map",
-    "static/js/3.87e3a5be.chunk.js": "/eodev99/prototype_react_map.git/static/js/3.87e3a5be.chunk.js",
-    "static/js/3.87e3a5be.chunk.js.map": "/eodev99/prototype_react_map.git/static/js/3.87e3a5be.chunk.js.map",
+    "static/js/2.074a626c.chunk.js": "/eodev99/prototype_react_map.git/static/js/2.074a626c.chunk.js",
+    "static/js/2.074a626c.chunk.js.map": "/eodev99/prototype_react_map.git/static/js/2.074a626c.chunk.js.map",
+    "static/js/3.e56f881e.chunk.js": "/eodev99/prototype_react_map.git/static/js/3.e56f881e.chunk.js",
+    "static/js/3.e56f881e.chunk.js.map": "/eodev99/prototype_react_map.git/static/js/3.e56f881e.chunk.js.map",
     "index.html": "/eodev99/prototype_react_map.git/index.html",
     "static/css/2.b4ebbe46.chunk.css.map": "/eodev99/prototype_react_map.git/static/css/2.b4ebbe46.chunk.css.map",
     "static/css/main.8e8cbc5f.chunk.css.map": "/eodev99/prototype_react_map.git/static/css/main.8e8cbc5f.chunk.css.map",
-    "static/js/2.931ff1ce.chunk.js.LICENSE.txt": "/eodev99/prototype_react_map.git/static/js/2.931ff1ce.chunk.js.LICENSE.txt"
+    "static/js/2.074a626c.chunk.js.LICENSE.txt": "/eodev99/prototype_react_map.git/static/js/2.074a626c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.581a76e2.js",
+    "static/js/runtime-main.958890a7.js",
     "static/css/2.b4ebbe46.chunk.css",
-    "static/js/2.931ff1ce.chunk.js",
+    "static/js/2.074a626c.chunk.js",
     "static/css/main.8e8cbc5f.chunk.css",
-    "static/js/main.dc3a4420.chunk.js"
+    "static/js/main.f81e9f31.chunk.js"
   ]
 }
