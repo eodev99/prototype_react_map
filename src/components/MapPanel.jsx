@@ -44,7 +44,6 @@ class MapPanel extends Component {
 
   giveColor = (areaName) => {
     //if area is in group apply group color else apply default
-
     const defaultColor = "blue";
     const selectedColor = "red";
     var color = defaultColor;
@@ -58,13 +57,13 @@ class MapPanel extends Component {
         }
       });
     }
+
     //if area is selected apply selected color
-    if(this.state.selectedCountries.length > 0){
+    if (this.state.selectedCountries.length > 0) {
       color = this.state.selectedCountries.includes(areaName)
-      ? selectedColor
-      : color;
+        ? selectedColor
+        : color;
     }
-   
 
     return color;
   };
@@ -72,7 +71,6 @@ class MapPanel extends Component {
   onEachArea = (feature, layer) => {
     let areaName = feature.properties.WD13NM;
     var self = this;
-
     layer.bindPopup(areaName);
 
     layer.on({
@@ -95,12 +93,14 @@ class MapPanel extends Component {
     };
   };
 
-  testCreateGroup = () => {
+  createGroup = () => {
     //get current grouping from state
     const groups = this.state.selectedCountries;
     // create new areagroup with current grouping as groups and assign random color and id
     const areaGroup = new AreaGroup(
+      //assign a random ID
       Math.floor(Math.random() * 10000),
+      //create random colour
       "#" + (0x1000000 + Math.random() * 0xffffff).toString(16).substr(1, 6),
       groups
     );
@@ -110,12 +110,10 @@ class MapPanel extends Component {
     this.removeAllAreas();
   };
 
-  testClickGroup = (e) => {
+  clickGroup = (e) => {
     const groupId = e.target.value;
     //get group
-    
     const group = this.state.groups.find((g) => g.uid == groupId);
-    
     if (group) {
       //unselect selelction
       this.removeAllAreas();
@@ -127,12 +125,16 @@ class MapPanel extends Component {
   render() {
     return (
       <StyledMapPanel>
-        <h1 style={{ background: "#005599" }} onClick={this.testCreateGroup}>
+        <h1 style={{ background: "#005599" }} onClick={this.createGroup}>
           Map
         </h1>
         <ul>
           {this.state.groups.map((group) => {
-            return <li value={group.uid} onClick={this.testClickGroup}>{group.uid}</li>;
+            return (
+              <li value={group.uid} onClick={this.testClickGroup}>
+                {group.uid}
+              </li>
+            );
           })}
         </ul>
         <MapContainer
