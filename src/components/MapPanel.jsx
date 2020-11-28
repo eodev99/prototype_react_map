@@ -110,6 +110,7 @@ class MapPanel extends Component {
     this.removeAllAreas();
   };
 
+  // when group id is clicked form list
   clickGroup = (e) => {
     const groupId = e.target.value;
     //get group
@@ -131,7 +132,7 @@ class MapPanel extends Component {
         <ul>
           {this.state.groups.map((group) => {
             return (
-              <li value={group.uid} onClick={this.testClickGroup}>
+              <li value={group.uid} onClick={this.clickGroup}>
                 {group.uid}
               </li>
             );
